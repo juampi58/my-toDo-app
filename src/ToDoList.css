@@ -1,0 +1,42 @@
+.iconSmall {
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+li {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+.tasks {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  user-select: none;
+}
+
+.task-item:active {
+  cursor: grabbing;
+}
+
+.toDo-remove {
+  margin-left: auto;
+  cursor: pointer;
+}
+.toDo-remove.hidden {
+  visibility: hidden;
+}
+
+.toDo-text {
+  margin-left: 0.5rem;
+}
+
+.drag-handle.hidden {
+  visibility: hidden;
+}
+
+button.editToDoList {
+  min-width: 5rem;
+}
